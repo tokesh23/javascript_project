@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Calibri,sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.panel{
+    width: 50px;
+    height: 90vh;
+    box-shadow: 0 0 10px black;
+    margin: 20px;
+    border-radius: 20px;
+    flex: 1;
+    background: white no-repeat scroll center;
+    transition: all 0.5s linear;
+    filter: grayscale(1);
+    position: relative;
+}
+ 
+.active{
+    flex: 6;
+    filter: grayscale(0);
+}
+.active h3{
+    transform: rotate(0deg);
+    left: 50px;
+    top: 50px;
+    
+}
+ #pannel-1{ background-image: url("./naure1.jpg")}
+ #pannel-2{ background-image: url("./naure2.jpg")}
+ #pannel-3{ background-image: url("./nature3.webp")}
+ #pannel-4{ background-image: url("./nature4.jpg")}
+ #pannel-5{ background-image: url("./nature5.jpg")}
+ #pannel-6{ background-image: url("./nature6.jpg")}
